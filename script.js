@@ -8,10 +8,10 @@ document.addEventListener('mousemove', function(e) {
   const x = e.clientX / window.innerWidth;
   const y = e.clientY / window.innerHeight;
 
-  document.getElementById('one').style.transform = `translate(${x * 50}px, ${y * 50}px)`;
-  document.getElementById('two').style.transform = `translate(${x * 30}px, ${y * 30}px)`;
-  document.getElementById('three').style.transform = `translate(${-x * 20}px, ${-y * 20}px)`;
-  document.getElementById('four').style.transform = `translate(${-x * 10}px, ${-y * 10}px)`;
+  document.getElementById('one').style.transform = `translate(${x * 60}px, ${y * 60}px)`;
+  document.getElementById('two').style.transform = `translate(${x * 40}px, ${y * 40}px)`;
+  document.getElementById('three').style.transform = `translate(${-x * 30}px, ${-y * 30}px)`;
+  document.getElementById('four').style.transform = `translate(${-x * 20}px, ${-y * 20}px)`;
 });
 
 let dots = 0;
