@@ -26,9 +26,10 @@ html {
 
 .three {
   top: 0px;
-  left: 0px;
+  left: 100vw;
   position: fixed;
   z-index: 2;
+  animation: bob 60s linear infinite;
 }
 
 .four {
@@ -57,4 +58,42 @@ html {
   position: fixed;
   top: calc(50% - 50px);
   left: calc(75% - 75px);
+}
+
+@keyframes bob {
+  0% {
+    left: 75%;
+    top: 0px;
+  }
+  10% {
+    top: -30px;
+  }
+  20% {
+    top: 0px;
+  }
+  30% {
+    top: -30px;
+  }
+  40% {
+    top: 0px;
+  }
+  50% {
+    top: -30px;
+  }
+  60% {
+    top: 0px;
+  }
+  70% {
+    top: -30px;
+  }
+  80% {
+    top: 0px;
+  }
+  90% {
+    top: -30px
+  }
+  100% {
+    left: -700px;
+    top: 0px;
+  }
 }

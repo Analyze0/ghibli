@@ -14,6 +14,8 @@ document.addEventListener('mousemove', function(e) {
   document.getElementById('four').style.transform = `translate(${-x * 20}px, ${-y * 20}px)`;
 });
 
+
+
 let dots = 0;
 setInterval(() => {
   const loadingText = document.querySelector('h1');
